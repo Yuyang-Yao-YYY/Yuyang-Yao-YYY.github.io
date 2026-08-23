@@ -4,6 +4,9 @@ title = "Yuyang Yao"
 
 theme = "PaperMod"
 
+[markup.goldmark.renderer]
+unsafe = true
+
 [[menu.main]]
 name = "Home"
 url = "/"

@@ -21,4 +21,4 @@ I study how linguistic knowledge is learned, represented, and processed in human
 
 Email: yuyang.yao@ling-phil.ox.ac.uk
 
-[CV](/yao_CV.pdf)
+<a href="/yao_CV.pdf" target="_blank" rel="noopener noreferrer">CV</a>
