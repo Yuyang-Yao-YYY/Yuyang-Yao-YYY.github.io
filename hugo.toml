@@ -41,8 +41,8 @@ Cognitive Science of Language | Computational Modelling | Language Models
 
 [[params.profileMode.buttons]]
 name = "Research"
-url = "/research"
+url = "/research/"
 
 [[params.profileMode.buttons]]
 name = "CV"
-url = "/cv.pdf"
+url = "/yao_CV.pdf"
