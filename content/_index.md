@@ -2,13 +2,11 @@
 title: "Home"
 ---
 
-<div class="home-intro">
-  <div class="home-intro-text">
-    <h1>Yuyang Yao</h1>
-    <p>I am an MPhil student in Linguistics, Philology and Phonetics at the University of Oxford.</p>
-  </div>
-  <img class="profile-photo" src="/images/profile.webp" alt="Portrait of Yuyang Yao">
-</div>
+<img class="profile-photo" src="/images/profile.webp" alt="Portrait of Yuyang Yao">
+
+# Yuyang Yao
+
+I am an MPhil student in Linguistics, Philology and Phonetics at the University of Oxford.
 
 My research lies at the intersection of cognitive science of language, computational modelling, and artificial intelligence.
 
