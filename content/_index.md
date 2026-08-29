@@ -10,15 +10,6 @@ My research lies at the intersection of cognitive science of language, computati
 
 I study how linguistic knowledge is learned, represented, and processed in humans and artificial systems, and how it manifests in behaviour.
 
+yuyang.yao@ling-phil.ox.ac.uk  
 <a href="/yao_CV.pdf" target="_blank" rel="noopener noreferrer">[CV]</a>
 
-## Research Interests
-
-- Cognitive Science of Language
-- Computational Modelling of Language Processing
-- Language Models
-- Mechanistic Interpretability
-
-## Contact
-
-Email: yuyang.yao@ling-phil.ox.ac.uk

@@ -16,7 +16,9 @@
 {{- range $section := $sections }}
   {{- with site.GetPage $section.path }}
   <section id="{{ $section.id }}" class="post-content md-content home-section">
+    {{- if ne .Params.showTitle false }}
     <h1>{{ .Title }}</h1>
+    {{- end }}
     {{- if .Content }}
       {{- if not (.Param "disableAnchoredHeadings") }}
         {{- partial "anchored_headings.html" .Content -}}

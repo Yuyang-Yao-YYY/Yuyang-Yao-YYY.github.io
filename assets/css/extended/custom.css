@@ -16,3 +16,9 @@ html {
     margin-top: 1rem;
     padding-top: 3rem;
 }
+
+#research {
+    border-top: 0;
+    margin-top: 0;
+    padding-top: 0;
+}
