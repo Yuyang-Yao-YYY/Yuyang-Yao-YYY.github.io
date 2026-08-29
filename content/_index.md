@@ -2,7 +2,11 @@
 title: "Home"
 ---
 
-<img class="profile-photo" src="/images/profile.webp" alt="Portrait of Yuyang Yao">
+<span class="profile-photo-frame">
+  <img class="profile-photo" src="/images/profile.webp" alt="Portrait of Yuyang Yao">
+</span>
+
+# Yuyang Yao
 
 I am an MPhil student in Linguistics, Philology and Phonetics at the University of Oxford.
 
