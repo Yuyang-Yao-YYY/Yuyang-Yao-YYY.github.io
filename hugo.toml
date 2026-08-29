@@ -9,22 +9,22 @@ unsafe = true
 
 [[menu.main]]
 name = "Home"
-url = "/"
+url = "/#home"
 weight = 10
 
 [[menu.main]]
 name = "Research"
-url = "/research/"
+url = "/#research"
 weight = 20
 
 [[menu.main]]
 name = "Publications"
-url = "/publications/"
+url = "/#publications"
 weight = 30
 
 [[menu.main]]
 name = "About me"
-url = "/about-me/"
+url = "/#about-me"
 weight = 40
 
 

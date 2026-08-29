@@ -1,0 +1,30 @@
+{{- define "main" }}
+<div id="home" class="post-content md-content home-section">
+  {{- if not (.Param "disableAnchoredHeadings") }}
+    {{- partial "anchored_headings.html" .Content -}}
+  {{- else }}
+    {{- .Content -}}
+  {{- end }}
+</div>
+
+{{- $sections := slice
+  (dict "id" "research" "path" "/research")
+  (dict "id" "publications" "path" "/publications")
+  (dict "id" "about-me" "path" "/about-me")
+-}}
+
+{{- range $section := $sections }}
+  {{- with site.GetPage $section.path }}
+  <section id="{{ $section.id }}" class="post-content md-content home-section">
+    <h1>{{ .Title }}</h1>
+    {{- if .Content }}
+      {{- if not (.Param "disableAnchoredHeadings") }}
+        {{- partial "anchored_headings.html" .Content -}}
+      {{- else }}
+        {{- .Content -}}
+      {{- end }}
+    {{- end }}
+  </section>
+  {{- end }}
+{{- end }}
+{{- end }}
