@@ -5,11 +5,13 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="noindex, nofollow">
-<title>Tags | Yuyang Yao</title>
+<title>Publications | Yuyang Yao</title>
 <meta name="keywords" content="">
-<meta name="description" content="">
+<meta name="description" content="Do Large Language Models Adapt Politeness Like Humans?
+Chen Tianfang, Yuyang Yao &amp; Liping Tang
+EMNLP 2026 (Main conference)">
 <meta name="author" content="">
-<link rel="canonical" href="http://localhost:1313/tags/">
+<link rel="canonical" href="http://localhost:1313/publications/">
 <link crossorigin="anonymous" href="/assets/css/stylesheet.44854eba15272542e8899dd65cd6b3e91f184f6adf88db3c0ab886cbf266a5c2.css" integrity="sha256-RIVOuhUnJULoiZ3WXNaz6R8YT2rfiNs8CriGy/JmpcI=" rel="preload stylesheet" as="style">
 <link rel="icon" href="http://localhost:1313/favicon.png">
 <link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon.png">
@@ -18,8 +20,7 @@
 <link rel="mask-icon" href="http://localhost:1313/favicon.png">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<link rel="alternate" type="application/rss+xml" href="http://localhost:1313/tags/index.xml" title="rss">
-<link rel="alternate" hreflang="en" href="http://localhost:1313/tags/">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/publications/">
 <noscript>
     <style>
         #theme-toggle,
@@ -67,7 +68,7 @@
 
 </script>
 </head>
-<body class="list" id="top">
+<body id="top">
     <header class="header">
     <nav class="header-nav">
         <div class="logo">
@@ -120,12 +121,31 @@
     </nav>
 </header>
 <main class="main">
-<header class="page-header">
-    <h1>Tags</h1>
-</header>
 
-<ul class="terms-tags">
-</ul>
+<article class="post-single">
+  <header class="post-header">
+    
+    <h1 class="post-title entry-hint-parent">
+      Publications
+    </h1>
+    <div class="post-meta">
+
+
+
+</div>
+  </header> 
+  <div class="post-content md-content"><p><strong>Do Large Language Models Adapt Politeness Like Humans?</strong><br>
+Chen Tianfang, <strong>Yuyang Yao</strong> &amp; Liping Tang<br>
+<em>EMNLP 2026 (Main conference)</em></p>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+    </ul>
+  </footer>
+</article>
     </main>
     
 <footer class="footer">
@@ -205,6 +225,53 @@
         }
     })
 
+</script>
+<script>
+    document.querySelectorAll('pre > code').forEach((codeblock) => {
+        const container = codeblock.parentNode.parentNode;
+
+        const copybutton = document.createElement('button');
+        copybutton.classList.add('copy-code');
+        copybutton.innerHTML = 'copy';
+
+        function copyingDone() {
+            copybutton.innerHTML = 'copied!';
+            setTimeout(() => {
+                copybutton.innerHTML = 'copy';
+            }, 2000);
+        }
+
+        copybutton.addEventListener('click', (cb) => {
+            if ('clipboard' in navigator) {
+                navigator.clipboard.writeText(codeblock.textContent);
+                copyingDone();
+                return;
+            }
+
+            const range = document.createRange();
+            range.selectNodeContents(codeblock);
+            const selection = window.getSelection();
+            selection.removeAllRanges();
+            selection.addRange(range);
+            try {
+                document.execCommand('copy');
+                copyingDone();
+            } catch (e) { };
+            selection.removeRange(range);
+        });
+
+        if (container.classList.contains("highlight")) {
+            container.appendChild(copybutton);
+        } else if (container.parentNode.firstChild == container) {
+            
+        } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
+            
+            codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
+        } else {
+            
+            codeblock.parentNode.appendChild(copybutton);
+        }
+    });
 </script>
 </body>
 

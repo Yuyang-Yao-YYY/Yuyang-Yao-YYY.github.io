@@ -8,17 +8,40 @@
     <language>en-us</language>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>About me</title>
+      <link>http://localhost:1313/about-me/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/about-me/</guid>
+      <description>&lt;p&gt;Before coming to Oxford, I studied German at Beijing Foreign Studies University. At the time, my interests were mainly in phonetics and phonology. In 2023, I had the opportunity to spend a year at the University of Göttingen as an exchange student. There, I took courses in phonology, syntax and &lt;em&gt;Mediävistik&lt;/em&gt;. Towards the end of that academic year, I also attended the 9th Naxos Summer School on Diachronic Linguistics.&lt;/p&gt;
+&lt;p&gt;You can explore some of my personal interests and hobbies &lt;a href=&#34;http://localhost:1313/personal/&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Personal</title>
+      <link>http://localhost:1313/personal/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/personal/</guid>
+      <description>&lt;h2 id=&#34;music&#34;&gt;Music&lt;/h2&gt;</description>
+    </item>
+    <item>
+      <title>Publications</title>
+      <link>http://localhost:1313/publications/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publications/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Do Large Language Models Adapt Politeness Like Humans?&lt;/strong&gt;&lt;br&gt;
+Chen Tianfang, &lt;strong&gt;Yuyang Yao&lt;/strong&gt; &amp;amp; Liping Tang&lt;br&gt;
+&lt;em&gt;EMNLP 2026 (Main conference)&lt;/em&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Research</title>
       <link>http://localhost:1313/research/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/research/</guid>
-      <description>&lt;h2 id=&#34;research-interests&#34;&gt;Research Interests&lt;/h2&gt;
-&lt;p&gt;I study how linguistic knowledge emerges and is represented in biological and artificial systems using computational models.&lt;/p&gt;
-&lt;h2 id=&#34;current-projects&#34;&gt;Current Projects&lt;/h2&gt;
-&lt;h3 id=&#34;language-learning-in-artificial-systems&#34;&gt;Language Learning in Artificial Systems&lt;/h3&gt;
-&lt;p&gt;Can linguistic structure emerge from speech recognition learning?&lt;/p&gt;
-&lt;h3 id=&#34;understanding-language-models&#34;&gt;Understanding Language Models&lt;/h3&gt;
-&lt;p&gt;How do artificial neural systems represent and process speech and language?&lt;/p&gt;</description>
+      <description>&lt;ul&gt;
+&lt;li&gt;Cognitive Science of Language&lt;/li&gt;
+&lt;li&gt;Computational Modelling of Language Processing&lt;/li&gt;
+&lt;li&gt;Language Models&lt;/li&gt;
+&lt;li&gt;Mechanistic Interpretability&lt;/li&gt;
+&lt;/ul&gt;</description>
     </item>
   </channel>
 </rss>

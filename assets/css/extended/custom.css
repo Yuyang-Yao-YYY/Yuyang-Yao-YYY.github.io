@@ -34,18 +34,17 @@ html {
 
 .md-content .profile-photo {
     float: right;
-    width: 180px;
-    height: 180px;
-    object-fit: cover;
-    border-radius: 50%;
-    margin: 0 0 1.5rem 2rem;
+    width: 220px;
+    height: auto;
+    border-radius: 0;
+    margin: 40px 0 1.5rem 2rem;
 }
 
 @media (max-width: 600px) {
     .md-content .profile-photo {
         float: none;
         width: 140px;
-        height: 140px;
+        height: auto;
         margin: 0 auto 1.5rem;
     }
 }
